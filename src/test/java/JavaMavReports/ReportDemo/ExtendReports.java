@@ -39,6 +39,8 @@ public class ExtendReports {
 		///test.addScreenCaptureFromBase64String(null);
 		test.fail("Result do not match");
 		spark.flush();
+		System.out.println("Change1");
+		System.out.println("Change2");
 	}
 
 }
