@@ -24,7 +24,9 @@ public class ExtendReports {
 		spark = new ExtentReports();
 		spark.attachReporter(reporter);
 		spark.setSystemInfo("Tester","Jason Alfaro");
-		
+		//Added GitDEMOReport
+				System.out.println("Change5");
+				System.out.println("Change6");
 	}
 	
 	@Test
@@ -44,6 +46,10 @@ public class ExtendReports {
 		//Added fromspace X
 		System.out.println("Change3");
 		System.out.println("Change4");
+		
+		//Added GitDEMOReport
+		System.out.println("Change7");
+		System.out.println("Change8");
 	}
 
 }
