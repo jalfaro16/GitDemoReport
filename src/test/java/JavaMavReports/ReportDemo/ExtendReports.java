@@ -51,5 +51,12 @@ public class ExtendReports {
 		System.out.println("Change7");
 		System.out.println("Change8");
 	}
+	@Test
+	public void initialDemo2()
+	{
+		//Added fropm spaceX
+		System.out.println("Change9");
+		System.out.println("Change10");
+	}
 
 }
